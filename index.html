@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="css/home.css">  
+    <!-- -----font---- -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+      </style>
+      <!-- --------icons------ -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    <nav id="nav" class="mynav navbar fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">My App</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">Carts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Orders</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="signin.html">Sign Out</a>
+                  </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <section class="username">
+        <h3><i class="fa-sharp fa-solid fa-circle-user"></i>  Hii, #1645</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F9F2ED" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,133.3C384,117,480,139,576,149.3C672,160,768,160,864,160C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <section class="carousel-sec">
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel ">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/C1.avif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/C2.avif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/C3.avif" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <hr>
+    <section class="article-feed-header">
+        <div class="cointainer">
+            <div class="pro-head">
+                <hr class="product-line">
+                <h2 class="product-head">Products</h3>
+                <hr class="product-line">
+            </div>
+            
+            <div class="product-con container text-center">
+                <div class="product-sec row">
+                  
+                    <div class="product col py-3 card">
+                        <img src="images/p1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Clothes</h5>
+                          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquam quidem vel numquam ut magni. </p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  
+                  
+                    <div class="product col py-3 card" >
+                        <img src="images/p2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Shoes</h5>
+                          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquam quidem vel numquam ut magni. </p>
+                          <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                      </div>
+                
+                  
+                  
+                    <div class="product col py-3 card">
+                        <img src="images/p1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Clothes</h5>
+                          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquam quidem vel numquam ut magni. </p>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                 
+                  </div>
+                </div>
+              </div>
+
+    </section>
+    <hr>
+    <section class="sales-sec">
+        <div class="cointainer">
+            <div class="pro-head">
+                <hr class="product-line">
+                <h2 class="product-head">Sales</h3>
+                <hr class="product-line">
+            </div>
+            <div class="sale-img">
+                <img src="images/p2.jpeg" alt="">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Buy 1 get 1 offer</h5>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f2ed" fill-opacity="1" d="M0,288L6.2,272C12.3,256,25,224,37,186.7C49.2,149,62,107,74,74.7C86.2,43,98,21,111,16C123.1,11,135,21,148,32C160,43,172,53,185,58.7C196.9,64,209,64,222,85.3C233.8,107,246,149,258,186.7C270.8,224,283,256,295,256C307.7,256,320,224,332,197.3C344.6,171,357,149,369,149.3C381.5,149,394,171,406,176C418.5,181,431,171,443,165.3C455.4,160,468,160,480,176C492.3,192,505,224,517,240C529.2,256,542,256,554,245.3C566.2,235,578,213,591,213.3C603.1,213,615,235,628,245.3C640,256,652,256,665,234.7C676.9,213,689,171,702,181.3C713.8,192,726,256,738,277.3C750.8,299,763,277,775,229.3C787.7,181,800,107,812,101.3C824.6,96,837,160,849,176C861.5,192,874,160,886,160C898.5,160,911,192,923,202.7C935.4,213,948,203,960,197.3C972.3,192,985,192,997,192C1009.2,192,1022,192,1034,186.7C1046.2,181,1058,171,1071,160C1083.1,149,1095,139,1108,133.3C1120,128,1132,128,1145,154.7C1156.9,181,1169,235,1182,234.7C1193.8,235,1206,181,1218,170.7C1230.8,160,1243,192,1255,186.7C1267.7,181,1280,139,1292,144C1304.6,149,1317,203,1329,229.3C1341.5,256,1354,256,1366,240C1378.5,224,1391,192,1403,202.7C1415.4,213,1428,267,1434,293.3L1440,320L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg>
+    </section>
+<hr>
+    <footer>
+        <div class="fix-footer container-fluid fixed-bottom">
+            <div class="ficons active">
+                <i class="fa-solid fa-house"></i> 
+                <a class="linked" href="#nav"><h6>Home</h6></a>
+            </div>
+            <div class="ficons">
+                <i class="fa-solid fa-shop"></i>
+                <h6>
+                    Product
+                </h6>
+            </div>
+            <div class="ficons">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a class="linked" href="cart.html"><h6>Cart</h6></a>
+            </div>
+            <div class="ficons">
+                <i class="fa-solid fa-user"></i>
+                <a class="linked" href="signin.html"><h6>Profile</h6></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>

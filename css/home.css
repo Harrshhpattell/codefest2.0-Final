@@ -1,0 +1,130 @@
+/* E26A2C orange*/
+/* FF2442 red  */
+/* 001E6C */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.mynav,
+.offcanvas-body{
+    background-color: #FD841F;
+}
+.nav-link{
+    color: #F9F2ED ;
+}
+.navbar-brand{
+    color: #161E54 ;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.username > h3{
+    padding: 0 6%;
+}
+
+.username{
+    background-color: #FD841F;
+    padding: 20% 0% 0% 0%;
+    color: #161E54;
+    border-radius: 0 0 5px 5px;
+}
+
+.carousel-sec{
+    background-color: #F9F2ED;
+}
+.carousel-inner{
+    border-radius: 15px;
+}
+
+hr{
+    width: 20%;
+    margin: 30px auto;
+    border: 10px dotted #FF2442 ;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+/* --------article-feed-header----- */
+.article-feed-header{
+    width: 100%;
+    padding: 5% auto;
+    background-color: #F87474;
+}
+.pro-head{
+    display: flex;
+    padding: 12px 0;
+}
+
+.product-head{
+    color: #F9F2ED;
+}
+.product-line{
+    width: 18%;
+    margin: 10px auto;
+    border: 5px solid #FF2442 ;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.product-sec{
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.product{
+    border-radius: 10px 10px 10px 20px;
+    background-color: #F9F2ED;
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* ------sale section----- */
+.sales-sec{
+    background-color: #F87474;
+}
+.sales-sec .card{
+    background-color: #F87474;
+    color: #161E54;
+    border: none;
+}
+.sale-img img{
+    width: 100%;
+    margin: auto;
+}
+
+/* --------footer----- */
+.ficons{
+    text-align: center;
+    color: #161E54;
+}
+.ficons:hover,
+.active{
+    color:#FF2442;
+}
+.fix-footer{
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #F9F2ED;
+}
+
+.linked{
+    text-decoration: none;
+    color: #161E54;
+}

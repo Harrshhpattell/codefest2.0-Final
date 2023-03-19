@@ -1,0 +1,28 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg,#FF9D76,#DB3951);
+}
+
+.icc-div{
+    text-align: center;
+    padding: 20% 0;
+}
+.icc-div i {
+    color: #000;
+}
+
+.container{
+    color: #fff ;
+}
+h3{
+    text-align: center;
+    color: #000;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h3 i{
+    margin: 12px 20px;
+}
