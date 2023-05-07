@@ -2,7 +2,7 @@
 This project is a mobile web application (task given by Rao Information Technology) that was created as part of the final round of CodeFest Rao. It is designed to be used on mobile devices only, and features only three buttons - Home, Cart, and Profile. The application was built using HTML, CSS, JavaScript, and Bootstrap.    
 
 ## Usage  
-To use this application, simply navigate to the project's URL 🔗 [`Tap`](https://harrshhpattell.github.io/codefest2.0-Final/index.html)  on your mobile device. The three buttons provide access to the different sections of the application:   
+To use this application, simply navigate to the project's URL 🔗 [`Tap`](https://harrshhpattell.github.io/codefest2.0-Final/)  on your mobile device. The three buttons provide access to the different sections of the application:   
 
 - Home: Displays information about the project and provides links to other sections of the application.       
 - Cart: Allows you to view items that have been added to your cart and proceed to checkout     
