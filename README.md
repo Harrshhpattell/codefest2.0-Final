@@ -16,6 +16,10 @@ This project was built using the following technologies:
 - Bootstrap    
 ### some images
 ![index html(iPhone SE)](https://user-images.githubusercontent.com/102842153/236681314-ad2c052e-6d38-4fcd-8719-7c2af339589f.png)
+<hr>      
 ![cart html(iPhone SE)](https://user-images.githubusercontent.com/102842153/236681349-5743e4f8-d06f-4cb6-9912-e310b33885e5.png)
+<hr>        
 ![signin html(iPhone SE)](https://user-images.githubusercontent.com/102842153/236681361-eb799f2c-97c7-4bdc-9754-393fd7672787.png)
+<hr>       
 ![menu(iPhone SE) (1)](https://user-images.githubusercontent.com/102842153/236681369-be12f6dd-cb67-4c37-8e86-df1bede3a03f.png)
+<hr>       
